@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            /* background: linear-gradient(to bottom right, #6a11cb, #2575fc); */
+        }
+        .first-line {
+            width: 200px;
+            height: 30px;
+            border: 2px solid black;
+            border-radius: 50px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .circle {
+            width: 20px;
+            height: 20px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+        .circle1{
+            width: 20px;
+            height: 20px;
+            border: 6px solid white;
+            border-radius: 50%;
+            margin-right: 43px;
+            position: absolute;
+        }
+        .load{
+            width: 150px;
+            height: 3px;
+            border: 2px solid black;
+            border-radius: 50px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        }
+        .load2{
+            width: 100px;
+            height: 3px;
+            /* border: 2px solid red; */
+            border-radius: 50px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            margin-top: -4.5px;
+            position: absolute;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="first-line">
+            
+        </div>
+
+        <svg width="20" height="20" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="25" cy="25" r="20" fill="none" stroke="blue" stroke-width="4" stroke-dasharray="100" stroke-dashoffset="0">
+            </circle>
+          </svg>
+          
+        <div>
+            <p>50%</p>
+            <p>TAYCAN 4S</p>
+            <div class="load"></div>
+            <div class="load2"></div>
+        </div>
+
+        <div class="second-line">
+            <div>
+                <p>Taycan 4S</p>
+                <p>You car battery's reach 25%</p>
+            </div>
+            <div>30m ago</div>
+        </div>
+
+
+        <div>
+            <div>
+                <p>Taycan 4S</p>
+                <p>You car battery's reach 25%</p>
+            </div>
+            <div>30m ago</div>
+        </div>
+    </div>
+</body>
+
+</html>
